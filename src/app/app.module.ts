@@ -15,6 +15,7 @@ import { SubscriptionFormComponent } from './components/subscription-form/subscr
 import { CommentsFormComponent } from './components/commments/comments-form/comments-form.component';
 import { CommentsListComponent } from './components/commments/comments-list/comments-list.component';
 import { AboutUsComponent } from './pages/about-us/about-us.component';
+import {NgOptimizedImage} from "@angular/common";
 
 @NgModule({
   declarations: [
@@ -32,10 +33,11 @@ import { AboutUsComponent } from './pages/about-us/about-us.component';
     CommentsListComponent,
     AboutUsComponent
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule
-  ],
+    imports: [
+        BrowserModule,
+        AppRoutingModule,
+        NgOptimizedImage
+    ],
   providers: [
     provideClientHydration()
   ],

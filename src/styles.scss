@@ -6,6 +6,15 @@ $navBar-footer-color:#f9f9f9;
 
 body{
 font-family: 'Roboto','sans-serif';
-font-size: 12px;
 color:$body-text-color;
+}
+.site-logo{
+  border-radius: 20px;
+  text-decoration: none;
+  color: #026467;
+  padding: 5px 20px;
+  background-color:#e5f5ea;
+}
+.nav-link{
+  color: #026467;
 }
