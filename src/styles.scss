@@ -18,3 +18,31 @@ color:$body-text-color;
 .nav-link{
   color: #026467;
 }
+.box-shadow{
+  border: none;
+  box-shadow: 0 0 33px -10px rgba(71,114,254,0.3);
+
+}
+input[type="text"],input[type="email"]{
+  height: 60px;
+  padding-left:20px;
+  font-size: 13px;
+  width: 100%;
+}
+.btn-them{
+  height:58px;
+  border:none;
+  font-size: 16px;
+  background-color: #026467;
+  color: #f9f9f9;
+  //width: 100%;
+}
+.bg-theme{
+  background-color:$primary-color;
+}
+.bg-secondary-theme{
+  background-color:$secondary-color ;
+}
+.text-theme-primary{
+ color:$primary-color;
+}

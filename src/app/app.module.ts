@@ -16,6 +16,7 @@ import { CommentsFormComponent } from './components/commments/comments-form/comm
 import { CommentsListComponent } from './components/commments/comments-list/comments-list.component';
 import { AboutUsComponent } from './pages/about-us/about-us.component';
 import {NgOptimizedImage} from "@angular/common";
+import { PostCardComponent } from './layouts/post-card/post-card.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +32,8 @@ import {NgOptimizedImage} from "@angular/common";
     SubscriptionFormComponent,
     CommentsFormComponent,
     CommentsListComponent,
-    AboutUsComponent
+    AboutUsComponent,
+    PostCardComponent
   ],
     imports: [
         BrowserModule,
